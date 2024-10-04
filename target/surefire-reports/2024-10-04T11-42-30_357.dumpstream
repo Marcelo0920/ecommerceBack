@@ -1,0 +1,5 @@
+# Created at 2024-10-04T11:42:32.776
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Maru\UNI\Matufia\SI2\PARCIAL1_ANG_2024\fixed\EcomerceSpring\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
