@@ -60,7 +60,11 @@ public class OrdenRest {
 
             Almacen almacen = almacenService.findByIdSucursal(sucursal.getId()).orElseThrow(null);
 
+            System.out.println("--------------------------------");
+
             MetodoPago metodoPago = metodoPagoService.findById(c.getId_metodo_pago()).orElseThrow();
+
+            System.out.println("El problema es el metodo de pagooo");
             Cliente cliente = clienteService.findById(c.getId_cliente()).orElseThrow();
 
             LocalTime horaActual = LocalTime.now();
